@@ -11,6 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        mainActivity_btAplicar.setOnClickListener{v-> mainActivity_tvResultado.text = mainActivity_etEntrada.text}
+        mainActivity_btAplicar.setOnClickListener{
+                r -> mainActivity_tvResultado.text = mainActivity_etEntrada.text}
     }
 }
